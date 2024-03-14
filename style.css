@@ -1,0 +1,29 @@
+@font-face {
+    font-family: opensans;
+    src: url(OpenSans-VariableFont_wdth\,wght.ttf);
+}
+body{
+    font-family: opensans;
+}
+#lable{
+    display: block;
+    font-size: 12em;
+    text-align: center;
+    color: rgb(40, 17, 61);
+}
+#countainer{
+    text-align: center;
+}
+.buttons{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 7px;
+    background-color: hsl(120, 70%, 75%);
+    cursor: pointer;
+transition: background-color 0.5s;
+}
+.buttons:hover {
+    background-color: hsl(120, 50%, 50%);
+}
+
+
